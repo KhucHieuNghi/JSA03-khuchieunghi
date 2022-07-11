@@ -15,9 +15,11 @@
 - img
 
 Ví dụ:
-` <div id='' class='' > Thẻ div </div> `
-` <video src=" ./video.mp4 " /> `
-` <img src=" ./hinh-anh.png " /> `
+``` 
+    <div id='' class='' > Thẻ div </div>
+    video src=" ./video.mp4 " /> 
+    <img src=" ./hinh-anh.png " /> 
+```
 
 ***
 
@@ -28,6 +30,7 @@ Ví dụ:
 - color: Thay đổi màu săc của chữ
 - text-transform: In hoa chữ viết hoặc, viết thường chữ viết
 
+
 Ví dụ:
 ```
     .class {
@@ -37,18 +40,20 @@ Ví dụ:
         text-transform: uppercase;
     }
 ```
+
 ***Dàn bố cục***
 - display: flex
     - align-items: Căn lề các phần từ con theo chiều dọc
     - justify-content: Căn lề các phần tử con theo chiều ngang
+
 Ví dụ:
-`
+```
     .class, div, span, p, img{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-`
+```
 
 ***Khoảng cách***
 - margin
@@ -69,13 +74,13 @@ Ví dụ:
     - background-image: url("./hinh-anh.png")
 
 Ví dụ:
-`
+```
     .class, div, span, p, img{
         border: 1px solid red;
         border-radius: 99px;
         background-image: url("./hinh-anh.png")
     }
-`
+```
 
 ***
 
@@ -98,13 +103,13 @@ Ví dụ:
 ![Thuộc tính CSS hỗ trợ responsive](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) (&lt;a&gt;)
 
 Ví dụ:
-`
+```
     .class{
         background: red;
     }
     .class:hover{
         background: blue;
     }
-`
+```
 
 
