@@ -3,41 +3,41 @@
 
 ## HTML ( Các thẻ thường sử dụng )
 > Lưu ý: Mở thẻ là phải đóng thẻ 
-==Thẻ tạo các khối==
+***Thẻ tạo các khối***
 - div
 - p
 - a
 - span
 - h1-6
 
-==Thẻ tao Medias==
+***Thẻ tao Medias***
 - video
 - img
 
 Ví dụ:
-`
-    <div id='' class='' > Thẻ div </div>
-    <video src=" ./video.mp4 " />
-    <img src=" ./hinh-anh.png " />
-`
+` <div id='' class='' > Thẻ div </div> `
+` <video src=" ./video.mp4 " /> `
+` <img src=" ./hinh-anh.png " /> `
+
+***
 
 ## CSS (các thuộc tính thường dùng)
-==Chữ==
+***Chữ***
 - font-size: Thay đổi kích thước chữ
 - font-weight: Thay đổi độ đậm nhạt của chữ
 - color: Thay đổi màu săc của chữ
 - text-transform: In hoa chữ viết hoặc, viết thường chữ viết
 
 Ví dụ:
-`
-    .class, div, span, p, img{
+```
+    .class {
         font-size: 16px;
         font-weight: bold;
         color: red;
         text-transform: uppercase;
     }
-`
-==Dàn bố cục==
+```
+***Dàn bố cục***
 - display: flex
     - align-items: Căn lề các phần từ con theo chiều dọc
     - justify-content: Căn lề các phần tử con theo chiều ngang
@@ -50,7 +50,7 @@ Ví dụ:
     }
 `
 
-==Khoảng cách==
+***Khoảng cách***
 - margin
     - margin-left
     - margin-right
@@ -62,7 +62,7 @@ Ví dụ:
     - padding-top
     - padding-bottom
 
-==Khung==
+***Khung***
 - border: Viền bên ngoài
 - border-radius: Bo tròn khung
 - background: Màu sắc của khung hoặc 1 hình ảnh
@@ -77,9 +77,11 @@ Ví dụ:
     }
 `
 
+***
+
 ## HTML Nâng cao
 > HTML5 semantic giúp cho người đọc hình dung được nơi đặt vị trí của trong bố cục thiết kế website thay vì chỉ dùng thẻ div
-==Thẻ tạo các khối==
+***Thẻ tạo các khối***
 - section
 - article
 - nav
@@ -87,8 +89,14 @@ Ví dụ:
 - header
 - footer
 
+***
+
 ## CSS Nâng cao
 > Sử dụng các thuộc tính hiệu ứng khi trỏ chuột vào 1 khối ( tag: div, span, a,... )
+
+> Sử dụng các thuộc tính tính hỗ trợ "responsive"
+![Thuộc tính CSS hỗ trợ responsive](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) (&lt;a&gt;)
+
 Ví dụ:
 `
     .class{
@@ -99,6 +107,4 @@ Ví dụ:
     }
 `
 
-> Sử dụng các thuộc tính tính hỗ trợ "responsive"
-![Thuộc tính CSS hỗ trợ responsive](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) (&lt;a&gt;)
 
