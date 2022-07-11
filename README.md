@@ -17,7 +17,7 @@
 Ví dụ:
 ``` 
     <div id='' class='' > Thẻ div </div>
-    video src=" ./video.mp4 " /> 
+    <video src=" ./video.mp4 " /> 
     <img src=" ./hinh-anh.png " /> 
 ```
 
