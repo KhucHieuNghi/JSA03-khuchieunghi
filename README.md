@@ -21,6 +21,10 @@ Ví dụ:
     <img src=" ./hinh-anh.png " /> 
 ```
 
+### Hướng dẫn phân chia cấu trúc
+
+[![Section1](section-1.png)](http://www.omnifood.net)
+
 ***
 
 ## CSS (các thuộc tính thường dùng)
