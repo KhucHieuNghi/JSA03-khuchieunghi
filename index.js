@@ -34,3 +34,15 @@ setInterval(() => {
     }
     
 }, 1000)
+
+
+
+// -- Function: Input (a, b) number
+// output: a + b
+
+function sum(a, b){
+    let sum = a + b;
+    return sum;
+}
+let result = sum(2, 5)
+console.log(result)
