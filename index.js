@@ -35,14 +35,28 @@ setInterval(() => {
     
 }, 1000)
 
-
-
-// -- Function: Input (a, b) number
-// output: a + b
-
-function sum(a, b){
-    let sum = a + b;
-    return sum;
+function myFunction(){
+    localStorage.setItem('name', document.getElementById('name').value)
+    localStorage.setItem('age', document.getElementById('age').value)
+    const isSuccess = confirm('Lưu thông tin thành công!, Quay về trang Home Page')
+    if(isSuccess){
+        window.location.href =  '/'
+    }
 }
-let result = sum(2, 5)
-console.log(result)
+
+function checkInfo(){
+    const name = localStorage.getItem('name')
+    const age = localStorage.getItem('age')
+    if(age && name){
+        alert('Name: ' + name + ' Age: ' + age)
+    }else{
+        alert('Không có thông tin')
+
+    }
+}
+
+function delInfo(){
+    localStorage.removeItem('name')
+    localStorage.removeItem('age')
+    alert('Xóa thông tin thành công!')
+}
