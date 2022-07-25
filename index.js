@@ -40,7 +40,7 @@ function myFunction(){
     localStorage.setItem('age', document.getElementById('age').value)
     const isSuccess = confirm('Lưu thông tin thành công!, Quay về trang Home Page')
     if(isSuccess){
-        window.location.href =  '/'
+        window.location.href =  '/JSA03-khuchieunghi'
     }
 }
 
